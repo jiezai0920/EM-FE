@@ -7,7 +7,7 @@
     <br>
     <h3>手机限定可选范围组件</h3>
     {{ aaa }}
-    <emfe-date-m v-model="aaa" :enabledDate="['2018/12/18', '2019/02/15']"></emfe-date-m>
+    <emfe-date-m v-model="aaa" :yearEnd="2040" :enabledDate="['2021/07/01', '2021/11/23']" ></emfe-date-m>
     <br>
     <br>
     <h3>固定宽度示例</h3>

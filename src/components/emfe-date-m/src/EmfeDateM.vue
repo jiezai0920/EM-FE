@@ -293,6 +293,8 @@ export default {
         this.months.push(TimeTool.handleConputedDate(i, this.disabledMonths, 'month', enabledDate, this, this.enabledDate.length > 1));
       }
 
+      console.log(this.months);
+
       const dateCountOfLastMonth = getDayCountOfMonth(this.year - 0, this.month - 1);
       this.days = [];
       let dayEnd = this.dayEnd;
